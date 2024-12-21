@@ -2,6 +2,8 @@
 
 A website project for a General Education (GE) subject taken in DLSU called Life and Works of Rizal with its course code being GERIZAL.
 
+##
+
 INSTRUCTIONS:
 
 1. Download the "GERIZAL Project Website" folder from Google Drive link. 
@@ -16,7 +18,7 @@ Name of our website: The Legacy of Rizal and the Education System
 
 This website is our FCO Component Output in GERIZAL - Y08
 
-===============================================================================================
+##
 
 Members:
 
@@ -27,8 +29,6 @@ RAGUDO, JUDE VERNARD V.
 TURLA, ISABELLE VIKTORIA E.
 ZAMORA, RAJO D.
 
-===============================================================================================
+##
 
 Thank you for the term!
-
-===============================================================================================
