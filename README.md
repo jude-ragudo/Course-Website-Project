@@ -10,7 +10,7 @@ your Desktop or Downloads folder, for example.
 3. Open the extracted "GERIZAL Project Website" folder.
 4. Look for the "home.html" file and open it with a browser such as Google Chrome, Opera, etc.
 
-===============================================================================================
+##
 
 Name of our website: The Legacy of Rizal and the Education System
 
