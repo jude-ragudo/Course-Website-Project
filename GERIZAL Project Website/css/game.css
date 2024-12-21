@@ -1,0 +1,50 @@
+body {
+    background-color: #811b1b;
+}
+#grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#checklist {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    font-size: 15px;
+    font-family:"montserrat-regular", sans-serif;
+    color: #000000;
+    margin: 20px;
+    padding: 10px;
+}
+#wordSearch {
+    display: grid;
+    grid-template-columns: repeat(16, 30px);
+    gap: 5px;
+    margin: 5px;
+    color: #000000;
+}
+#controls {
+    display: flex;
+    flex-direction: column;
+    font-family:"roboto-bold", sans-serif;
+    align-items: center;
+    text-align: center;
+}
+#checkGuess, #clearGuess {
+    background-color: #FFBD59;
+}
+
+#checkGuess:hover , #clearGuess:hover {
+    background-color: white;
+}
+
+.cell {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000000;
+    text-align: center;
+    line-height: 30px;
+    font-family:"montserrat-regular", sans-serif;
+    font-size: 20px;
+}

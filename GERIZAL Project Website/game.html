@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title>Word Search Game</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/game.css">
+        
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+	<link rel="icon" href="logo.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header class="short-header">   
+
+   	<div class="gradient-block"></div>	
+
+   	<div class="row header-content">
+
+		<div class="logo">
+			<a href="home.html">Author</a>
+		 </div>
+
+		<nav id="main-nav-wrap">
+			<ul class="main-navigation sf-menu">
+				<li><a href="home.html" style="font-weight: bold;">Home</a></li>									
+				<li><a href="background.html" style="font-weight: bold;">Background</a></li>
+				<li><a href="perspective.html" style="font-weight: bold;">Perspective</a></li>
+				<li><a href="relevance.html" style="font-weight: bold;">Relevance</a></li>
+				<li class="current"><a href="game.html" style="font-weight: bold;">Word Search Game</a></li>	
+				<li><a href="team.html" style="font-weight: bold;">About Us</a></li>										
+			</ul>
+		</nav> <!-- end main-nav-wrap -->
+
+
+   	</div>     		
+   	
+   </header> <!-- end header -->
+   
+
+   <!-- content
+   ================================================== -->
+   <section id="content-wrap" class="blog-single">
+	<div>
+		<h1 style="text-align: center; color: #FFBD59; margin-top: 3%;">Word Search</h1>
+		<h3 style="text-align: center; color: white">(Education-Related Characters in Rizal’s Novels)</h3>
+		<h4 style="font-family: roboto-regular, sans-serif;text-align: center; color: #ffffff; margin-top: -5px; margin-bottom: 3%;"><br>CAN YOU FIND THE 13 CHARACTER NAMES IN THE LIST?</h4>
+	</div>
+	<div id="grid" style="margin-top: -15px;">
+		<div style="cursor: pointer" id="wordSearch"></div>
+		<div id="checklist"></div>
+	</div>
+	<div id="controls">
+		<p style="font-family: roboto-regular, sans-serif; color: #ffffff; font-size: 19px; margin-top: 1%; ">YOUR GUESS:</p>
+		<h3 id="guessValue" style="color: #ffffff; font-family: roboto-regular, sans-serif; text-decoration:underline; margin-top: -15px;"></h3>
+		<div id="buttons" style="margin-top: 10px">
+			<button id="checkGuess" onclick="checkGuess()" style="font-family: roboto-bold, sans-serif;">Check Answer</button>
+			<button id="clearGuess" onclick="clearGuess()" style="font-family: roboto-bold, sans-serif;">Clear Guess</button>
+		</div>
+	</div>
+   </section> <!-- end content -->
+
+    <!-- footer
+   ================================================== -->
+   <footer>
+
+	<div class="footer-main">
+
+		<div class="row">  
+
+		   <div class="col-one tab-full mob-full footer-info">            
+
+			 <h4>About Our Website</h4>
+
+				<p style="text-align: justify;">This is a website about the challenges of the education system during the Spanish colonial rule from specific chapters in Jose Rizal's novels, “Noli Me Tángere” and “El Filibusterismo”.</p>
+
+		   </div> <!-- end footer-info -->
+
+		   <div class="col-two tab-1-3 mob-1-2 site-links">
+
+				<h4>Course Subject</h4>
+
+				<p>GERIZAL</p>
+
+		   </div> <!-- end site-links -->  
+
+		   <div class="col-three tab-1-3 mob-1-2 social-links">
+
+				<h4>Section</h4>
+
+				<p>Y08</p>
+						  
+		   </div> <!-- end social links --> 
+
+		   <div class="col-four tab-1-3 mob-full footer-subscribe">
+
+			   <h4>Meet Our Team</h4>
+
+			   <p><a href="team.html">About Us</a></p>
+						  
+		   </div> <!-- end subscribe -->         
+
+	   </div> <!-- end row -->
+
+	</div> <!-- end footer-main -->
+
+   <div class="footer-bottom">
+	   <div class="row">
+
+		   <div class="col-twelve">
+			   <div class="copyright">
+				  <span>© The Legacy of Rizal and the Education System 2024</span>  	
+			  </div>
+
+			  <div id="go-top">
+				 <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon icon-arrow-up"></i></a>
+			  </div>         
+		   </div>
+
+	   </div> 
+   </div> <!-- end footer-bottom -->  
+
+	</footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+   <script src="js/game.js"></script>
+
+
+</body>
+
+</html>
