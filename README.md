@@ -1,4 +1,4 @@
-# Readings in the Philippine History (GERPHIS) Website Project
+# Life and Works of Rizal (GERIZAL) Website Project
 
 A website project for a General Education (GE) subject taken in DLSU called Life and Works of Rizal with its course code being GERIZAL.
 
